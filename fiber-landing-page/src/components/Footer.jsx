@@ -3,7 +3,7 @@ import React from 'react'
 const Footer=()=>{
     return(
         <div className='mx-auto'>
-<div className='grid grid-cols-5 gap-2 justify-items-center ml-10'>
+<div className='grid grid-cols-5 gap-2 justify-items-center ml-10 mt-50 bg-primary'>
     <div>
         <h1 className='text-2xl font-bold'>Fiber</h1>
         <p>With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates</p>

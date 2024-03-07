@@ -1,7 +1,7 @@
 import { useState } from 'react'
  
  
-import { Footer, Navbar,Hero, Features, Features1 } from './components'
+import { Footer, Navbar,Hero, Features, Features1, Testimonials } from './components'
 
 function App() {
  
@@ -12,6 +12,7 @@ function App() {
      <Hero/>
      <Features/>
      <Features1/>
+     <Testimonials/>
      <Footer/>
  </>
 

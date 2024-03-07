@@ -3,7 +3,7 @@ import heroImage from '../assets/heroImage.png'
 import CheckMark from '../assets/Checkmark.svg'
 const Hero=()=>{
     return (
-        <div className="grid grid-cols-2 justify-items-center">
+        <div className="grid grid-cols-2 justify-items-center bg-primary">
             <div className="ml-10 my-10">
                 <div>
                 {[...Array(5)].map((star) => {        
