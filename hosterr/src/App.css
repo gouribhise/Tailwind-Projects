@@ -5,3 +5,13 @@ body{
     background-color: #F9F4E8 !important;
     color:black;
 }
+
+.hero-img{
+     
+    background-image:url('./images/Blue\ Shape.svg'),url('./images/Pink\ Shape.svg'),url('./images/Purple\ Shape.svg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top,center top, right bottom;
+  background-size: 34% 100%, 34% 100%, 33% 100%;
+  width:500px;
+  height:700px
+}
