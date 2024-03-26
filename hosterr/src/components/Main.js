@@ -1,5 +1,9 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import heroImg from '../images/Hero Image (Model).png'
+import BlueImg from '../images/Blue\ Shape.svg'
+import PinkImg from '../images/Pink\ Shape.svg'
+import PurpleImg from '../images/Purple\ Shape.svg';
+
 const features = [
   {
     name: 'Push to deploy.',
@@ -33,15 +37,41 @@ export default function Main() {
                 With hosterr get your website up and running in no less than 5 minutes with the most competitive pricing 
                 packages available online. 
               </p>
+              {/* form */}
+              <form>
+               
+            <div className="mt-4 flex items-center sm:col-span-4 ">
+            <div>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autoComplete="email"
+                  placeholder='enter e-mail address'
+                  className="block w-full   rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
+        <button
+          type="submit"
+          className="rounded-md bg-indigo-600 px-3 ml-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          Join Waitlist
+        </button>
+      </div>
+              </form>
               
             </div>
           </div>
-          <div  className='hero-img'> 
-          <img
-            src={heroImg}
-            alt="hero image"
-          
-          />
+        
+          <div className='blue-img'>
+            <img src={BlueImg}/>
+            <div className='pink-img'>
+              <img src={PinkImg}/>
+              <div className='purple-img'>
+                <img src={PurpleImg}/>
+                <img src={heroImg} className='main-img'/>
+              </div>
+            </div>
           </div>
          
         </div>
