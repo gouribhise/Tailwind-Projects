@@ -1,12 +1,14 @@
  
 import './App.css';
-
+import {Navbar,Hero,About,Skills,Projects} from './componets'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1 class="text-3xl font-bold underline">Hello</h1>
-      </header>
+    <Navbar/>
+    <Hero/>
+    <About/>
+    <Skills/>
+    <Projects/>
     </div>
   );
 }
