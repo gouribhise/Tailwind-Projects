@@ -6,7 +6,7 @@ function App() {
     <div className="App">
     <Navbar/>
     <Hero/>
-    <About/>
+ 
     <Skills/>
     <Projects/>
     </div>
